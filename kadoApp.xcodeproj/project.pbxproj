@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2699E7FA1B4CC620003AAF16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699E7F91B4CC620003AAF16 /* AppDelegate.swift */; };
+		2699E7FC1B4CC620003AAF16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699E7FB1B4CC620003AAF16 /* ViewController.swift */; };
+		2699E7FF1B4CC620003AAF16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2699E7FD1B4CC620003AAF16 /* Main.storyboard */; };
+		2699E8011B4CC620003AAF16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699E8001B4CC620003AAF16 /* Images.xcassets */; };
+		2699E8041B4CC620003AAF16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2699E8021B4CC620003AAF16 /* LaunchScreen.xib */; };
+		2699E8101B4CC621003AAF16 /* kadoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699E80F1B4CC621003AAF16 /* kadoAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2699E80A1B4CC620003AAF16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2699E7EC1B4CC620003AAF16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2699E7F31B4CC620003AAF16;
+			remoteInfo = kadoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2699E7F41B4CC620003AAF16 /* kadoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2699E7F81B4CC620003AAF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2699E7F91B4CC620003AAF16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2699E7FB1B4CC620003AAF16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2699E7FE1B4CC620003AAF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2699E8001B4CC620003AAF16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2699E8031B4CC620003AAF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2699E8091B4CC620003AAF16 /* kadoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kadoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2699E80E1B4CC620003AAF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2699E80F1B4CC621003AAF16 /* kadoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadoAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2699E7F11B4CC620003AAF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2699E8061B4CC620003AAF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2699E7EB1B4CC620003AAF16 = {
+			isa = PBXGroup;
+			children = (
+				2699E7F61B4CC620003AAF16 /* kadoApp */,
+				2699E80C1B4CC620003AAF16 /* kadoAppTests */,
+				2699E7F51B4CC620003AAF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2699E7F51B4CC620003AAF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2699E7F41B4CC620003AAF16 /* kadoApp.app */,
+				2699E8091B4CC620003AAF16 /* kadoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2699E7F61B4CC620003AAF16 /* kadoApp */ = {
+			isa = PBXGroup;
+			children = (
+				2699E7F91B4CC620003AAF16 /* AppDelegate.swift */,
+				2699E7FB1B4CC620003AAF16 /* ViewController.swift */,
+				2699E7FD1B4CC620003AAF16 /* Main.storyboard */,
+				2699E8001B4CC620003AAF16 /* Images.xcassets */,
+				2699E8021B4CC620003AAF16 /* LaunchScreen.xib */,
+				2699E7F71B4CC620003AAF16 /* Supporting Files */,
+			);
+			path = kadoApp;
+			sourceTree = "<group>";
+		};
+		2699E7F71B4CC620003AAF16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2699E7F81B4CC620003AAF16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2699E80C1B4CC620003AAF16 /* kadoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2699E80F1B4CC621003AAF16 /* kadoAppTests.swift */,
+				2699E80D1B4CC620003AAF16 /* Supporting Files */,
+			);
+			path = kadoAppTests;
+			sourceTree = "<group>";
+		};
+		2699E80D1B4CC620003AAF16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2699E80E1B4CC620003AAF16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2699E7F31B4CC620003AAF16 /* kadoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699E8131B4CC621003AAF16 /* Build configuration list for PBXNativeTarget "kadoApp" */;
+			buildPhases = (
+				2699E7F01B4CC620003AAF16 /* Sources */,
+				2699E7F11B4CC620003AAF16 /* Frameworks */,
+				2699E7F21B4CC620003AAF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kadoApp;
+			productName = kadoApp;
+			productReference = 2699E7F41B4CC620003AAF16 /* kadoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2699E8081B4CC620003AAF16 /* kadoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699E8161B4CC621003AAF16 /* Build configuration list for PBXNativeTarget "kadoAppTests" */;
+			buildPhases = (
+				2699E8051B4CC620003AAF16 /* Sources */,
+				2699E8061B4CC620003AAF16 /* Frameworks */,
+				2699E8071B4CC620003AAF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2699E80B1B4CC620003AAF16 /* PBXTargetDependency */,
+			);
+			name = kadoAppTests;
+			productName = kadoAppTests;
+			productReference = 2699E8091B4CC620003AAF16 /* kadoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2699E7EC1B4CC620003AAF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Sunprize Entertainment Co.";
+				TargetAttributes = {
+					2699E7F31B4CC620003AAF16 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2699E8081B4CC620003AAF16 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2699E7F31B4CC620003AAF16;
+					};
+				};
+			};
+			buildConfigurationList = 2699E7EF1B4CC620003AAF16 /* Build configuration list for PBXProject "kadoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2699E7EB1B4CC620003AAF16;
+			productRefGroup = 2699E7F51B4CC620003AAF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2699E7F31B4CC620003AAF16 /* kadoApp */,
+				2699E8081B4CC620003AAF16 /* kadoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2699E7F21B4CC620003AAF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699E7FF1B4CC620003AAF16 /* Main.storyboard in Resources */,
+				2699E8041B4CC620003AAF16 /* LaunchScreen.xib in Resources */,
+				2699E8011B4CC620003AAF16 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2699E8071B4CC620003AAF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2699E7F01B4CC620003AAF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699E7FC1B4CC620003AAF16 /* ViewController.swift in Sources */,
+				2699E7FA1B4CC620003AAF16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2699E8051B4CC620003AAF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699E8101B4CC621003AAF16 /* kadoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2699E80B1B4CC620003AAF16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2699E7F31B4CC620003AAF16 /* kadoApp */;
+			targetProxy = 2699E80A1B4CC620003AAF16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2699E7FD1B4CC620003AAF16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2699E7FE1B4CC620003AAF16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2699E8021B4CC620003AAF16 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2699E8031B4CC620003AAF16 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2699E8111B4CC621003AAF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2699E8121B4CC621003AAF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2699E8141B4CC621003AAF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kadoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2699E8151B4CC621003AAF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kadoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2699E8171B4CC621003AAF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kadoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kadoApp.app/kadoApp";
+			};
+			name = Debug;
+		};
+		2699E8181B4CC621003AAF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kadoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kadoApp.app/kadoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2699E7EF1B4CC620003AAF16 /* Build configuration list for PBXProject "kadoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699E8111B4CC621003AAF16 /* Debug */,
+				2699E8121B4CC621003AAF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2699E8131B4CC621003AAF16 /* Build configuration list for PBXNativeTarget "kadoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699E8141B4CC621003AAF16 /* Debug */,
+				2699E8151B4CC621003AAF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2699E8161B4CC621003AAF16 /* Build configuration list for PBXNativeTarget "kadoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699E8171B4CC621003AAF16 /* Debug */,
+				2699E8181B4CC621003AAF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2699E7EC1B4CC620003AAF16 /* Project object */;
+}
